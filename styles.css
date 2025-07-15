@@ -1,0 +1,108 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: Outfit;
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 750px;
+  width: 90%;
+  margin: 4% auto;
+  border: 1px solid hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 25px;
+}
+
+.recipe-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  padding-inline-start: 15px;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+main {
+  padding: 25px;
+  margin: 12px;
+}
+
+.recipe-preparation {
+  padding-inline-start: 15px;
+  padding-block: 10px;
+  margin-block: 25px;
+  margin-inline-start: 5px;
+  background-color: hsl(332, 51%, 98%);
+}
+
+ul li {
+  padding-block: 5px;
+  list-style: outside;
+}
+
+ol li {
+  padding-block: 5px;
+}
+
+li {
+  padding-inline-start: 15px;
+}
+
+hr {
+  margin-block: 30px;
+  border-top: 1px solid hsl(30, 18%, 87%);
+}
+
+span {
+  font-weight: 600;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  padding: 0.8rem 2rem;
+}
+
+tr td:first-child {
+  padding-right: 2rem;
+}
+
+tr td:last-child {
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  main {
+    padding: 0.5em;
+    margin: 0.25em;
+  }
+
+  .recipe-instructions {
+    padding: 0.25em;
+    margin: 0em;
+  }
+}
